@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    min-height: 100%;
+    background-image: linear-gradient(to right, #001540, #001b3a);
+}
+h1{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight:bolder;
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+}
+#top{
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.123);
+    top: 0;
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+}
+#input-txt{
+    resize: none;
+    height: 100px;
+    width: 75%;
+    background-color: #001540;
+    border: 0px;
+    box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    word-wrap: break-word;
+    word-break: break-all;
+    max-lines: 70;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    text-shadow: 0 0 10px #fff;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+}
+#out-txt{
+    resize: none;
+    height: 200px;
+    width: 75%;
+    background-color: #001540;
+    border: 0px;
+    box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 12%;
+    word-wrap: break-word;
+    padding: 20px;
+}
